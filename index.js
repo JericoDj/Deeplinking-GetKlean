@@ -1,4 +1,4 @@
-// server.js
+
 import express from "express";
 
 const app = express();
@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("Hello, Express is running!");
 });
 
-// Your /register redirect route
+
 app.get("/register", (req, res) => {
   res.redirect("myapp://gkui/register");
 });
